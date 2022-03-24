@@ -1,0 +1,121 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Open+Sans:100,300,400,500,700');
+* {padding: 0; margin: 0; box-sizing: border-box; font-family: arial, sans-serif;}
+
+
+.scrollHelp{
+	display: none;
+}
+
+.spectate{
+	position: absolute;
+	color: #fff;
+	background-color: #313840d2;
+	min-width: 1100px;
+	display: none;
+	border-radius: 5px;
+	top: 700px;
+	left: 34%;
+}
+
+h2{
+	display: inline-block;
+	font-size: 20px;
+}
+
+#head {
+	background-color: #313840d2;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	padding: 5px;
+	width: 100%;
+	text-transform: uppercase;
+	text-align: left;
+	transition: 0.5s;
+}
+
+.header #close{
+	float: right;
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	color: #f03a17;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+.spectate .users{
+	padding: 5px;
+	max-height: 700px;
+    overflow: auto;
+
+}
+
+
+.user{
+	padding: 6px 5px;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.user .user-name{
+	margin-left: 15px;
+}
+
+.user-jobText{
+	margin-left: 15px;
+}
+
+.user-money{
+	margin-left: 15px;
+}
+
+.user .user-actions{
+	float: right;
+	position: relative;
+	bottom: 1px;
+}
+
+input[type="submit"]{
+	border: 0;
+	background: #000000;
+	text-align: center;
+	border: 1px solid #000000;
+	padding: 2px 10px;
+	outline: none;
+	color: white;
+	border-radius: 5px;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover{
+	background-color: #000000;
+}
+
+/* ::-webkit-scrollbar {
+	width: 0px;
+}
+
+::-webkit-scrollbar-track {
+	display:none;
+} */
+
+::-webkit-scrollbar {
+	width: 8px;
+	background: rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+	background: rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+	background: rgba(34, 94, 189, 1);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+	background: rgba(34, 94, 189, 1);
+  }
